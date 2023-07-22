@@ -1,10 +1,10 @@
----
-title: Leah is great with kids!
-tags: [House Sitting, Babysitting]
-style: border
-color: secondary
-description: Leah watched our house and babysat our kids so that I could join my wife on her business trip
----
+--- 
+title: "automated test - Leah is great with kids!" 
+tags: [Client Review] 
+style: border 
+color: secondary 
+description: Leah watched our house and babysat our kids so that I could join my wife on her business trip 
+--- 
 
 # Wonderful Experience with Nanny Leah!
 
@@ -33,4 +33,3 @@ Upon returning from our trip, we were pleasantly surprised to find our home even
 In conclusion, I cannot recommend Leah enough as a nanny. She is a trustworthy, responsible, and caring individual who brings joy and security into the lives of the children she cares for. If you are seeking a reliable nanny who will treat your children with love and attention, look no further than Leah. We will undoubtedly be seeking her services again in the future.
 
 Thank you, Leah, for providing such a wonderful experience for our family!
-

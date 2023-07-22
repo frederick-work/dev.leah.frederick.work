@@ -6,8 +6,12 @@ Deployment Status
 | [Production](https://leah.frederick.work) | [![pages-build-deployment](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment) |
 | [Development](https://dev.leah.frederick.work) | [![pages-build-deployment](https://github.com/frederick-work/dev.leah.frederick.work/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frederick-work/dev.leah.frederick.work/actions/workflows/pages/pages-build-deployment) |
 
+Pending new reviews: [![GitHub issues](https://img.shields.io/github/issues/frederick-work/leah.frederick.work?label=new%20review)](https://github.com/frederick-work/leah.frederick.work/labels/new%20review)
+
+
 #### Table of Contents
 - [Overview](#overview)
+- [Managing automated review posting system](#managing-automated-review-posting-system)
 - [Editing site with Github Codespaces](#editing-site-with-github-codespaces)
 - [Adding reviews](#adding-reviews)
 - [Local Development](#local-development)
@@ -20,6 +24,14 @@ Deployment Status
 Jekyll is a static site generator that allows you to create a website without having to write HTML, CSS, or JavaScript. You can learn more about Jekyll [here](https://jekyllrb.com/). It's what powers [GitHub Pages](https://pages.github.com/), which is where this site is hosted.
 
 To modify the site you only need to be able to edit Markdown files. Markdown is a lightweight markup language that's easy to learn. You can learn more about Markdown [here](https://www.markdownguide.org/).
+
+# Managing automated review posting system
+When a new review is submitted a new issue will be created [here](https://github.com/frederick-work/leah.frederick.work/labels/new%20review). If you want to approve the review, add the `review approved` label to the issue , remove the `new review` label, and close it. The site will automatically be updated with the new review.
+
+## Links
+- [Google Apps Script](https://script.google.com/u/0/home/projects/1d4EQ3b3rAjj-Cck1z3Dcpx1PPvBXL31UNmqbPED-lQP6UilWwFsgbrPu/edit)
+- [Google Sheets Review Database](https://docs.google.com/spreadsheets/d/1bS30eDES4LTxzarj2mK8ARuiLirTPhnQS_0Q1X7Vx1c/edit?resourcekey#gid=2048581759)
+- [Google Forms Review Submission](https://docs.google.com/forms/d/1Ml41FKG77zkvw9xZtzm_5_Iw7TH4JYvEDQjfFxu4ER4/edit)
 
 # Editing site with Github Codespaces
 1. If you don't have an active codespace, create one [here](https://github.com/codespaces/new?hide_repo_select=true&ref=development&repo=669187073&skip_quickstart=true&machine=basicLinux32gb&geo=UsEast).
@@ -34,7 +46,7 @@ git push
 
 This will deploy the site to [dev.leah.frederick.work](https://dev.leah.frederick.work/). If you're happy with your changes, create a pull request [here](https://github.com/frederick-work/leah.frederick.work/compare/master...frederick-work:leah.frederick.work:development) to merge your changes into the master branch. Once this is completed the site will be redeployed to [leah.frederick.work](https://leah.frederick.work/).
 
-# Adding reviews
+# Adding reviews manually
 
 To add a review, copy the following text and paste it in a new file in the `_posts` directory. The name of the file should be in the format `YYYY-MM-DD-review-title.md`. For example, `2021-04-27-date-night-savior.md`. You can then customize the content to your liking.
 
