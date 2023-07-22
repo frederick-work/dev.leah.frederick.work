@@ -1,6 +1,10 @@
 **AYO: Don't get mad, you don't have to write code to modify this. This is a free static site so you might have to put a little bit of work into figuring it out; that's why it's free. You can do it! I believe in you!**
 
-[![pages-build-deployment](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment)
+Deployment Status
+| Environment | Status |
+| - | - |
+| [Production](https://leah.frederick.work) | [![pages-build-deployment](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frederick-work/leah.frederick.work/actions/workflows/pages/pages-build-deployment) |
+| [Development](https://dev.leah.frederick.work) | [![pages-build-deployment](https://github.com/frederick-work/dev.leah.frederick.work/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frederick-work/dev.leah.frederick.work/actions/workflows/pages/pages-build-deployment) |
 
 #### Table of Contents
 - [Overview](#overview)

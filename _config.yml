@@ -2,7 +2,7 @@
 title               : leah.frederick.work
 description         : >-
                       I'm Leah, a dedicated child care specialist committed to nurturing young minds. With personalized nannying services, I create a safe and joyful environment for your little ones to grow, learn, and explore. My clients' glowing reviews reflect the exceptional care and support I provide. Join me in providing the best for your child's growth and happiness!
-# baseurl             : "" # "leah.frederick.work"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : "" # "leah.frederick.work"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : frederick-work/leah.frederick.work    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
