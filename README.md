@@ -8,6 +8,7 @@ Deployment Status
 
 #### Table of Contents
 - [Overview](#overview)
+- [Editing site with Github Codespaces](#editing-site-with-github-codespaces)
 - [Adding reviews](#adding-reviews)
 - [Local Development](#local-development)
 - [Dependencies](#dependencies)
@@ -19,6 +20,19 @@ Deployment Status
 Jekyll is a static site generator that allows you to create a website without having to write HTML, CSS, or JavaScript. You can learn more about Jekyll [here](https://jekyllrb.com/). It's what powers [GitHub Pages](https://pages.github.com/), which is where this site is hosted.
 
 To modify the site you only need to be able to edit Markdown files. Markdown is a lightweight markup language that's easy to learn. You can learn more about Markdown [here](https://www.markdownguide.org/).
+
+# Editing site with Github Codespaces
+1. If you don't have an active codespace, create one [here](https://github.com/codespaces/new?hide_repo_select=true&ref=development&repo=669187073&skip_quickstart=true&machine=basicLinux32gb&geo=UsEast).
+2. Open the codespace in your browser.
+3. Make your changes.
+4. Commit and push your changes to Github:
+```bash
+git add .
+git commit -m "describe your changes here"
+git push
+```
+
+This will deploy the site to [dev.leah.frederick.work](https://dev.leah.frederick.work/). If you're happy with your changes, create a pull request [here](https://github.com/frederick-work/leah.frederick.work/compare/master...frederick-work:leah.frederick.work:development) to merge your changes into the master branch. Once this is completed the site will be redeployed to [leah.frederick.work](https://leah.frederick.work/).
 
 # Adding reviews
 
