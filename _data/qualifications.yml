@@ -6,3 +6,6 @@
 
 - name: Recent PA Act 153 Clearances Available Upon Request
   color: secondary
+
+- name: Prompt
+  color: light
