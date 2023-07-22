@@ -1,0 +1,8 @@
+- name: CPR Certified
+  color: danger
+
+- name: Pediatric First Aid
+  color:
+
+- name: Recent PA Act 153 Clearances Available Upon Request
+  color: secondary
